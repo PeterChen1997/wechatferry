@@ -49,7 +49,7 @@ export const referMsgParser: MessageParser = async (_message: WxMsg, ret: Puppet
 
   ret.isRefer = true
   ret.type = PUPPET.types.Message.Text
-  ret.text = `「${referMessagePayload.displayname}：${referMessageContent}」\n- - - - - - - - - - - - - - -\n${appPayload.title}`
+  ret.text = `(${referMessagePayload.chatusr})「${referMessagePayload.displayname}：${referMessageContent}」\n- - - - - - - - - - - - - - -\n${appPayload.title}`
 
   return ret
 }
