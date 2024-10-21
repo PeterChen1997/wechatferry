@@ -1,5 +1,5 @@
 {
-  "name": "@wechatferry/core",
+  "name": "@wcfpeter/core",
   "type": "module",
   "version": "0.0.22-beta.1",
   "description": "A node impl of wcferry client",
@@ -48,7 +48,7 @@
   },
   "dependencies": {
     "@rustup/nng": "^0.1.2",
-    "@wechatferry/logger": "workspace:*",
+    "@wcfpeter/logger": "workspace:*",
     "file-box": "^1.4.15",
     "fs-extra": "^11.2.0",
     "google-protobuf": "^3.21.4",

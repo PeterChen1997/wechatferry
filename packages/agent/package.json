@@ -1,5 +1,5 @@
 {
-  "name": "@wechatferry/agent",
+  "name": "@wcfpeter/agent",
   "type": "module",
   "version": "0.0.22-beta.1",
   "description": "wcferry agent client",
@@ -43,8 +43,8 @@
     "dev": "unbuild --stub"
   },
   "dependencies": {
-    "@wechatferry/core": "workspace:*",
-    "@wechatferry/logger": "workspace:*",
+    "@wcfpeter/core": "workspace:*",
+    "@wcfpeter/logger": "workspace:*",
     "file-box": "^1.4.15",
     "knex": "^3.1.0",
     "lz4": "^0.6.5"

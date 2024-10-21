@@ -1,5 +1,5 @@
-import type { WxMsg } from '@wechatferry/core'
-import { WechatAppMessageType, WechatMessageType } from '@wechatferry/core'
+import type { WxMsg } from '@wcfpeter/core'
+import { WechatAppMessageType, WechatMessageType } from '@wcfpeter/core'
 import * as PUPPET from 'wechaty-puppet'
 import type { PuppetMessage } from '../../types'
 import { type ReferMsgPayload, parseAppmsgMessagePayload } from '../../messages'

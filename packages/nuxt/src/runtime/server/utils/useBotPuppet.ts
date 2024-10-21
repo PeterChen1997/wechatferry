@@ -1,5 +1,5 @@
-import { WechatferryPuppet } from '@wechatferry/puppet'
-import { createSafeModePuppet } from '@wechatferry/plugins'
+import { WechatferryPuppet } from '@wcfpeter/puppet'
+import { createSafeModePuppet } from '@wcfpeter/plugins'
 import { useRuntimeConfig } from 'nitropack/runtime'
 import { useBotAgent } from './useBotAgent'
 

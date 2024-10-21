@@ -110,10 +110,10 @@ importers:
 
   packages/agent:
     dependencies:
-      '@wechatferry/core':
+      '@wcfpeter/core':
         specifier: workspace:*
         version: link:../core
-      '@wechatferry/logger':
+      '@wcfpeter/logger':
         specifier: workspace:*
         version: link:../logger
       file-box:
@@ -135,7 +135,7 @@ importers:
       '@rustup/nng':
         specifier: ^0.1.2
         version: 0.1.2
-      '@wechatferry/logger':
+      '@wcfpeter/logger':
         specifier: workspace:*
         version: link:../logger
       file-box:
@@ -175,10 +175,10 @@ importers:
       '@nuxt/kit':
         specifier: ^3.13.0
         version: 3.13.0(magicast@0.3.5)(rollup@4.21.2)
-      '@wechatferry/plugins':
+      '@wcfpeter/plugins':
         specifier: workspace:*
         version: link:../plugins
-      '@wechatferry/puppet':
+      '@wcfpeter/puppet':
         specifier: workspace:*
         version: link:../puppet
       fast-glob:
@@ -258,7 +258,7 @@ importers:
 
   packages/plugins:
     dependencies:
-      '@wechatferry/core':
+      '@wcfpeter/core':
         specifier: workspace:*
         version: link:../core
       dayjs:
@@ -288,10 +288,10 @@ importers:
 
   packages/puppet:
     dependencies:
-      '@wechatferry/agent':
+      '@wcfpeter/agent':
         specifier: workspace:*
         version: link:../agent
-      '@wechatferry/core':
+      '@wcfpeter/core':
         specifier: workspace:*
         version: link:../core
       file-box:
@@ -316,7 +316,7 @@ importers:
 
   packages/robot:
     dependencies:
-      '@wechatferry/nuxt':
+      '@wcfpeter/nuxt':
         specifier: workspace:*
         version: link:../nuxt
       bullmq:
@@ -330,21 +330,21 @@ importers:
         specifier: 'catalog:'
         version: 3.13.0(@parcel/watcher@2.4.1)(@types/node@22.5.1)(eslint@9.9.1(jiti@1.21.6))(ioredis@5.4.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.21.2)(terser@5.31.6)(typescript@5.5.4)(vite@5.4.2(@types/node@22.5.1)(terser@5.31.6))(xml2js@0.6.2)
 
-  packages/wechatferry:
+  packages/wcfpeter:
     dependencies:
-      '@wechatferry/agent':
+      '@wcfpeter/agent':
         specifier: workspace:*
         version: link:../agent
-      '@wechatferry/core':
+      '@wcfpeter/core':
         specifier: workspace:*
         version: link:../core
-      '@wechatferry/logger':
+      '@wcfpeter/logger':
         specifier: workspace:*
         version: link:../logger
-      '@wechatferry/plugins':
+      '@wcfpeter/plugins':
         specifier: workspace:*
         version: link:../plugins
-      '@wechatferry/puppet':
+      '@wcfpeter/puppet':
         specifier: workspace:*
         version: link:../puppet
 

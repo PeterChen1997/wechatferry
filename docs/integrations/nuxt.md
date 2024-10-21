@@ -5,7 +5,7 @@
 ## 安装
 
 ```bash
-pnpx nuxi module add @wechatferry/nuxt
+pnpx nuxi module add @wcfpeter/nuxt
 ```
 
 ## 使用

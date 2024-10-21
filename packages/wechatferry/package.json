@@ -1,5 +1,5 @@
 {
-  "name": "wechatferry",
+  "name": "@wcfpeter/wechatferry",
   "type": "module",
   "version": "0.0.22-beta.1",
   "description": "wechat robot framework based on wechatferry",
@@ -51,10 +51,10 @@
     "dev": "unbuild --stub"
   },
   "dependencies": {
-    "@wechatferry/agent": "workspace:*",
-    "@wechatferry/core": "workspace:*",
-    "@wechatferry/logger": "workspace:*",
-    "@wechatferry/plugins": "workspace:*",
-    "@wechatferry/puppet": "workspace:*"
+    "@wcfpeter/agent": "workspace:*",
+    "@wcfpeter/core": "workspace:*",
+    "@wcfpeter/logger": "workspace:*",
+    "@wcfpeter/plugins": "workspace:*",
+    "@wcfpeter/puppet": "workspace:*"
   }
 }

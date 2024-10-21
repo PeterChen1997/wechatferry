@@ -1,5 +1,5 @@
 {
-  "name": "@wechatferry/robot",
+  "name": "@wcfpeter/robot",
   "type": "module",
   "version": "0.0.22-beta.1",
   "description": "nuxt layers for wechatferry",
@@ -42,7 +42,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@wechatferry/nuxt": "workspace:*",
+    "@wcfpeter/nuxt": "workspace:*",
     "bullmq": "^5.12.10",
     "openai": "^4.56.0"
   },
